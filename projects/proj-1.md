@@ -2,7 +2,13 @@
 layout: post
 title: 'Project One'
 ---
-Mauris velit metus, tempor gravida nulla eget, auctor accumsan tellus. Curabitur volutpat sed dolor quis tempus. In scelerisque aliquam felis at tincidunt. Proin non augue fringilla, [pretium justo vitae](#), maximus dui. Nunc ipsum nisi, fermentum sit amet volutpat cursus, sodales ac nisl. Quisque nec tellus sem. Cras pharetra felis non quam mollis, nec efficitur lectus aliquet. Maecenas ipsum felis, eleifend nec [semper venenatis](#), consequat ut nunc. Donec est augue, facilisis quis placerat sed, imperdiet sit amet neque. Maecenas nec risus metus. Nunc non condimentum ipsum. Phasellus consectetur dapibus massa, convallis iaculis nisi vestibulum id. Phasellus et fringilla augue. Donec consequat dui ut rutrum elementum. Aenean nisi arcu, ornare eu lacus vel, faucibus tempor tortor.
+I am currently working on developing a custom dashboard for the student built race car I work on for my project team at Cornell.
+
+Over the summer I conducted R&D to select parts and develop a plan for my board ((Summer Design Report)[https://docs.google.com/document/d/1WKc7Q3VKmvlFOh2o1Y_aCp5rCdYjmxY-hWMD89qIQBE/edit?usp=sharing]). In early September, I completed a layout of my board on Altium. The board went through design review and I made slight changes, until I ordered and brought up the board in early October. I utilized I mostly recently tested my on board CAN line, successfully sending and recieving data. I am currently developing a firmware suite to write directly to the onboard RAM of my screen driver module to allow me to execute advanced visual functions, display images, and display animations. 
+
+
+
+
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-1/dog.jpg" %}
 
