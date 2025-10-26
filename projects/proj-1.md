@@ -10,3 +10,4 @@ Over the summer I conducted R&D to select parts and develop a plan for my board 
 {% image="projects/proj-1/Schematic2D.png" %}
 
 {% image="projects/proj-1/Schematic3D.png" %}
+
