@@ -12,6 +12,4 @@ Over the summer I conducted R&D to select parts and develop a plan for my board 
 </div>
 
 For CAN bus testing, I created my own harness and connected to another student's board to simulate a complete CAN bus.
-
-![CAN Bus Test](/assets/img/projects/proj-1/IMG_0583.jpg)
-
+<img src="/assets/img/projects/proj-1/IMG_0583.jpg" alt="CAN Bus Testing" width="400">
