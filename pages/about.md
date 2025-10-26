@@ -4,6 +4,6 @@ title: About
 permalink: /about
 ---
 
-# Portfolio Jekyll Theme
+# About Me
 
-This is a personal portfolio theme that I built from the ground up, using the [DevTips Starter Kit](http://devtipsstarterkit.com/) as a foundation for starting, and following closely the amazing tutorial by [Travis Neilson over at DevTips](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P). You can [check out the demo](lenpaul.github.io/portfolio-jekyll-theme/), and [fork the repository](https://github.com/LeNPaul/portfolio-jekyll-theme/fork), to get started.
+It's nice to meet you. My name is Nate, and I am a sophomore studying Electrical and Computer Engineering at Cornell University. I am interested in hardware design, computer systems architecture, and the working with embedded systems in general. I am a member of the Cornell Racing Project team, where I design, test, and implement custom PCBs, including coding their peripherals. I am proficient in Altium, Verilog, Assembly (RSC-V), C/C++, Python, and Java. In my free time, I play club frisbee for Cornell and am a volunteer firefighter.
