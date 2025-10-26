@@ -5,8 +5,19 @@ markdown:  kramdown
 permalink: /:title
 plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+# Site settings
+title: Personal Portfolio
+email: nateharis@gmail.com
+description: > 
+  Personal Portfolio showcasing some of my engineering and design projects. Updated over time as projects progress.
+baseurl: "" # Leave empty for username.github.io
+url: "https://nh428.github.io" # Your site URL
 
-title:		   "Portfolio Jekyll Theme"
-description: "Powered by Jekyll and GitHub Pages"
-author:      "Paul Le"
+# User settings
+username: Nate Haris
+user_description: Electrical Engineer | Software Designer | Computer Arichitect
+user_title: Nate Haris
+
+# Social media links (optional)
+github_username: nh428
+linkedin_username: nh428
