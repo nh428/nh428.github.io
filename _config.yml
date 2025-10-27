@@ -7,8 +7,8 @@ plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 
 # Site settings
 title: Nate Haris
-subtitle: nateharis@gmail.com
-email: nateharis@gmail.com
+subtitle: nh428@cornell.edu
+email: nh428@cornell.edu
 description: > 
   Personal Portfolio showcasing some of my engineering and design projects. Updated over time as projects progress.
 baseurl: "" # Leave empty for username.github.io
