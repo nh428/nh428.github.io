@@ -4,6 +4,8 @@ title: 'Project One'
 ---
 **I am currently working on developing a custom dashboard for the student built race car I work on for my project team at Cornell.**
 
+---
+
 **Present:** Writing a custom library to directly access coprocessor graphics commands through register manipulation in the coprocessor RAM
 
 **10/25/25:** Tested on board CAN bus technology, created a custom harness and successfully sent and recieved data over CAN.
