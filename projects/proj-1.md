@@ -13,6 +13,8 @@ Present: Writing a custom library to directly access coprocessor graphics comman
 
 10/24/25: Completely continuity tested board, found and corrected physical errors in board (shorted terminals and faulty components)
 
+<img src="/assets/img/projects/proj-1/finishedBoard.jpg" alt="Fully brought up board" width="400">
+
 10/22/25: Brought up board using solder oven and hand soldering
 
 
