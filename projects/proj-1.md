@@ -3,7 +3,6 @@ layout: post
 title: 'Project One'
 ---
 **I am currently working on developing a custom dashboard for the student built race car I work on for my project team at Cornell.**
-<br>
 
 **Present:** Writing a custom library to directly access coprocessor graphics commands through register manipulation in the coprocessor RAM
 
