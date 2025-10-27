@@ -6,7 +6,7 @@ permalink: /:title
 plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 
 # Site settings
-title: Personal Portfolio
+title: Nate Haris
 email: nateharis@gmail.com
 description: > 
   Personal Portfolio showcasing some of my engineering and design projects. Updated over time as projects progress.
