@@ -25,7 +25,7 @@ title: 'ARG26 Dash'
   <img src="/assets/img/projects/proj-1/schematic2D.png" alt="2D Board Schematic" style="width:45%; border-radius:10px;">
 </div>
 
-**9/29/25:** Finished ([Preliminary Design Report](https://docs.google.com/document/d/1wmj2EkKXVpfNvsFNHgp13AmDA0lCqhSfUNw64zUEh54/edit?usp=sharing)), got feedback from professors
+**9/29/25:** Finished [Preliminary Design Report](https://docs.google.com/document/d/1wmj2EkKXVpfNvsFNHgp13AmDA0lCqhSfUNw64zUEh54/edit?usp=sharing), got feedback from professors
 
 **9/20/25:** Finished first layout of board
 
