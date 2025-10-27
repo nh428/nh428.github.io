@@ -2,7 +2,7 @@
 layout: post
 title: 'ARG26 Dash'
 ---
-**I am currently working on developing a custom dashboard for the student built race car I work on for my project team at Cornell.**
+**I am currently working on developing a custom dashboard for the student built race car (ARG26) I work on for my project team at Cornell.**
 
 ---
 
