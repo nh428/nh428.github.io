@@ -10,8 +10,8 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'ARG26 Dash', url: 'proj-1', image: 'assets/img/projects/proj-1/thumbnail.png'}
-- {name: 'ARG25 BMS Test',   url: 'proj-2'}
+- {name: 'Custom Dashboard PCB', url: 'proj-1', image: 'assets/img/projects/proj-1/thumbnail.png'}
+- {name: 'Battery Managament System Test PCB',   url: 'proj-2'}
 - {name: 'RSC-V Microprocessor', url: 'proj-3'}
 - {name: 'API Endpoint Vulnerability Research',  url: 'proj-4'}
 
