@@ -12,5 +12,5 @@ Hello! My name is Nate, and I am a sophomore studying Electrical and Computer En
 
 <img src="/assets/headshot.png" 
      alt="My Headshot" 
-     style="float: right; width: 200px; height: 200px; border-radius: 50%; margin-left: 20px; object-fit: cover;">
+     style="float: right; width: 200px; height: 200px; border-radius: 50%; margin-left: 5px; object-fit: cover;">
 
