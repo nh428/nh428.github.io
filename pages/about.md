@@ -4,13 +4,26 @@ title: About
 permalink: /about
 ---
 
+<style>
+@media (max-width: 1000px) {
+  .about-img {
+    position: static !important;
+    display: block;
+    margin: 20px auto;
+  }
+  .about-text {
+    max-width: 100% !important;
+  }
+}
+</style>
+
 <div style="position: relative; min-height: 220px;">
 
-  <h2 style="font-weight: 700; margin-bottom: 0.5em;">About Me</h2>
+  <h4 style="font-weight: 700; margin-bottom: 0.5em;">About Me</h4>
 
   <img src="/assets/headshot.png" 
        alt="My Headshot" 
-       style="position: absolute; right: -140px; top: 10px; width: 180px; height: 180px; border-radius: 50%; object-fit: cover;">
+       style="position: absolute; right: -140px; top: 10px; width: 220px; height: 220px; border-radius: 50%; object-fit: cover;">
 
   <p style="max-width: 70%; line-height: 1.6;">
     Hello! My name is Nate, and I am a sophomore studying Electrical and Computer Engineering at Cornell University.
