@@ -4,28 +4,6 @@ title: About
 permalink: /about
 ---
 
-<style>
-.about-wrapper {
-  position: relative;
-}
-.about-img {
-  position: absolute;
-  right: -160px; /* move into the white space */
-  top: 40px;     /* adjust vertical position */
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-@media (max-width: 1000px) {
-  .about-img {
-    position: static;
-    display: block;
-    margin: 20px auto;
-  }
-}
-</style>
-
 <div class="about-wrapper">
 
 ### About Me
