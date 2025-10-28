@@ -23,7 +23,7 @@ permalink: /about
 
   <img src="/assets/headshot.png" 
        alt="My Headshot" 
-       style="position: absolute; right: -140px; top: 10px; width: 250px; height: 250px; border-radius: 50%; object-fit: cover;">
+       style="position: absolute; right: -180px; top: 10px; width: 250px; height: 250px; border-radius: 50%; object-fit: cover;">
 
   <p style="max-width: 70%; line-height: 1.6;">
     Hello! My name is Nate, and I am a sophomore studying Electrical and Computer Engineering at Cornell University.
