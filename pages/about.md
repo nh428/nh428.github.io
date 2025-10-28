@@ -25,7 +25,7 @@ permalink: /about
        alt="My Headshot" 
        style="position: absolute; right: -250px; top: 10px; width: 250px; height: 250px; border-radius: 50%; object-fit: cover;">
 
-  <p style="max-width: 70%; line-height: 1.6;">
+  <p style="max-width: 90%; line-height: 1.6;">
     Hello! My name is Nate, and I am a sophomore studying Electrical and Computer Engineering at Cornell University.
     I am interested in hardware design, computer systems architecture, and working with embedded systems in general.
     I am a member of the <a href="https://cornellracing.org/">Cornell Racing</a> Project Team, where I design, test, and implement custom PCBs, including coding their peripherals.
