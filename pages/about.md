@@ -8,7 +8,7 @@ permalink: /about
 
   <h2 style="font-weight: 700; margin-bottom: 0.5em;">About Me</h2>
 
-  <img src="/assets/images/headshot.jpg" 
+  <img src="/assetsheadshot.png" 
        alt="My Headshot" 
        style="position: absolute; right: -140px; top: 10px; width: 180px; height: 180px; border-radius: 50%; object-fit: cover;">
 
