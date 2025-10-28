@@ -12,7 +12,7 @@ permalink: /about
     </p>
   </div>
   
-  <img src="/assets/images/headshot.jpg" 
+  <img src="/assets/headshot.png" 
        alt="My Headshot" 
        style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
 </div>
