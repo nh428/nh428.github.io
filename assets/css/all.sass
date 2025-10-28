@@ -17,3 +17,24 @@ $documentBackgroundColor: #fff
 @import '1-tools/-tools-dir'
 @import '2-base/-base-dir'
 @import '3-sections/-sections-dir'
+
+
+.about-wrapper {
+  position: relative;
+}
+.about-img {
+  position: absolute;
+  right: -160px; /* move into white space */
+  top: 40px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+@media (max-width: 1000px) {
+  .about-img {
+    position: static;
+    display: block;
+    margin: 20px auto;
+  }
+}
