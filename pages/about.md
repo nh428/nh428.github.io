@@ -15,6 +15,6 @@ permalink: /about
   <div style="flex: 0 0 40%; display: flex; justify-content: center;">
     <img src="/assets/headshot.png" 
          alt="My Headshot" 
-         style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+         style="width: 175px; height: 175px; border-radius: 50%; object-fit: cover;">
   </div>
 </div>
