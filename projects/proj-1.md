@@ -10,6 +10,11 @@ title: 'ARG26 Dash'
 
 **11/15/25:** Implemented a custom library to directly access coprocessor graphics commands through register manipulation in the coprocessor RAM. Used low level register maniuplation to display graphics on the screen.
 
+<div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+  <img src="/assets/img/projects/proj-1/screen.jpg" alt="Functional Dashboard" style="width:45%; border-radius:10px;">
+  <img src="/assets/img/projects/proj-1/helloworld_code.png" alt="Low level code driving screen" style="width:45%; border-radius:10px;">
+</div>
+
 **10/25/25:** Tested on board CAN bus technology, created a custom harness and successfully sent and recieved data over CAN.
 
 <img src="/assets/img/projects/proj-1/IMG_0583.jpg" alt="CAN Bus Testing" width="400">
