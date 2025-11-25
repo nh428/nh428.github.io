@@ -6,7 +6,9 @@ title: 'ARG26 Dash'
 
 ---
 
-**Present:** Writing a custom library to directly access coprocessor graphics commands through register manipulation in the coprocessor RAM.
+**Present**: Working on graphic design of screens, as well as integration testing with physical mechanics of the car. 
+
+**11/15/25:** Implemented a custom library to directly access coprocessor graphics commands through register manipulation in the coprocessor RAM. Used low level register maniuplation to display graphics on the screen.
 
 **10/25/25:** Tested on board CAN bus technology, created a custom harness and successfully sent and recieved data over CAN.
 
