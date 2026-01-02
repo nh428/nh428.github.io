@@ -25,6 +25,8 @@ title: 'ARG26 Dash'
 
 **10/20/25:** Board arrived, brought up board using solder oven and hand soldering.
 
+<img src="/assets/img/projects/proj-1/boardBringup.jpeg" alt="CAN Bus Testing" width="400">
+
 **10/4/25:** Revised board, finialized layout. Ordered board.
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
