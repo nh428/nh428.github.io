@@ -5,10 +5,10 @@ title: 'RSC-V Multi-core Processor'
 
 This processor was designed as a part of coursework for ECE 4750, Computer Architecture. The processor was first designed to be a fully functional 5 stage pipelined processor with forwarding, a data and instruction cache, hazard detection and stalling logic, and an iterative multipler ([lab report](https://www.overleaf.com/read/zfrfprnvpjzb#fe1304)). 4 instances of these processors were then adapted and connected using a ring network topology to create a multi-core system. Further optimizations were made to increase processor performance, including fair router abritation, cache single cycle parallel read hits, a branch target buffer, and optimized sorting algorthim code. 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
-  <img src="/assets/img/projects/proj-3/singleandmulti.png" alt="Single and Multicore Diagram" style="width:45%; border-radius:10px;">
+  <img src="/assets/img/projects/proj-3/singleandmulti.png" alt="Single and Multicore Diagram" style="width:65%; border-radius:10px;">
 </div>
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
-  <img src="/assets/img/projects/proj-3/ring.png" alt="Ring Network Topology" style="width:45%; border-radius:10px;">
+  <img src="/assets/img/projects/proj-3/ring.png" alt="Ring Network Topology" style="width:75%; border-radius:10px;">
 </div>
 
 Router distance and round robin arbitration tatics were used to optimize the network. A puesdo parallel cache was designed in order to optimize the common read hit case for a single cycle. We performed the tag check of our cache while bypassing the data at that specific address, then used control signals to confirm its validity in a single cycle. 
