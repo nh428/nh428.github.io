@@ -8,7 +8,7 @@ This processor was designed as a part of coursework for ECE 4750, Computer Archi
   <img src="/assets/img/projects/proj-3/singleandmulti.png" alt="Single and Multicore Diagram" style="width:65%; border-radius:10px;">
 </div>
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
-  <img src="/assets/img/projects/proj-3/ring.png" alt="Ring Network Topology" style="width:75%; border-radius:10px;">
+  <img src="/assets/img/projects/proj-3/ring.png" alt="Ring Network Topology" style="width:85%; border-radius:10px;">
 </div>
 
 Router distance and round robin arbitration tatics were used to optimize the network. A puesdo parallel cache was designed in order to optimize the common read hit case for a single cycle. We performed the tag check of our cache while bypassing the data at that specific address, then used control signals to confirm its validity in a single cycle. 
