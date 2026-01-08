@@ -11,8 +11,8 @@ menu:
 
 projects:
 - {name: 'Custom Dashboard PCB', url: 'proj-1', image: 'assets/img/projects/proj-1/thumbnail.png'}
-- {name: 'Battery Management System Test PCB',   url: 'proj-2'}
-- {name: 'RSC-V Multi-Core Processor', url: 'proj-3'}
+- {name: 'RSC-V Multi-Core Processor',   url: 'proj-3'}
+- {name: 'Battery Management System Test PCB', url: 'proj-2'}
 - {name: 'API Endpoint Vulnerability Research',  url: 'proj-4'}
 
 #-------------------------------
