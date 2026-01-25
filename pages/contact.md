@@ -4,6 +4,8 @@ title: Contact
 permalink: /contact
 ---
 
-# Contact
+# Resume
 
-Please feel free to contact me through my email, [nh428@cornell.edu](mailto:nh428@cornell.edu).
+Please refer to my resume [here](). 
+
+
