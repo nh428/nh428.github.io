@@ -2,13 +2,17 @@
 layout: post
 title: 'ARG26 Dash'
 ---
-**I am currently working on developing a custom dashboard for the student built race car (ARG26) I work on for my project team at Cornell.**
+**I am currently working on developing a custom dashboard for the student built race car (named ARG26) I work on for my project team at Cornell.**
 
 ---
 
-**Present**: Working on graphic design of screens, as well as integration testing with physical mechanics of the car. 
+**Present:** Mounting dashboard to the car and waiting for the car's first drive, 1/31/26!
 
-**11/15/25:** Implemented a custom library to directly access coprocessor graphics commands through register manipulation in the coprocessor RAM. Used low level register maniuplation to display graphics on the screen.
+**1/20/26:** Designed multiple custom screens for different debugging modes, communciating internal systems data. Tested physical integration with the chassis and configured driver input support.
+
+**12/8/25**: Implemented library support, forking FT81xMania's GDSTx repository. This library allowed for me to utilize advanced EVE display list commands on my specific hardware
+
+**11/15/25:** Created custom scripts to directly access coprocessor graphics commands through register manipulation in the coprocessor RAM. Used low level register maniuplation to display graphics on the screen.
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
   <img src="/assets/img/projects/proj-1/screen.jpg" alt="Functional Dashboard" style="width:45%; border-radius:10px;">
