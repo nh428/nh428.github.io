@@ -2,5 +2,4 @@
 layout: home
 title: Home
 ---
-
-Hello
+Click on one of my projects for more information!
