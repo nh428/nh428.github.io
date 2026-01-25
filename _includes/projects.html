@@ -1,4 +1,7 @@
 <section>
+  <div class="projects-intro">
+    {{ content }}
+  </div>
   <div class="project-container">
     {% for project in site.data.settings.projects %}
       <a href="{{ site.github.url }}/projects/{{ project.url }}">
@@ -9,8 +12,5 @@
         </div>
       </a>
     {% endfor %}
-  </div>
-  <div class="projects-intro">
-    {{ content }}
   </div>
 </section>
