@@ -10,7 +10,10 @@ title: 'ARG26 Dash'
 
 **1/20/26:** Designed multiple custom screens for different debugging modes, communciating internal systems data. Tested physical integration with the chassis and configured driver input support.
 
-<img src="/assets/img/projects/proj-1/DebugV2.jpeg" alt="Debug Screen" width="600">
+<div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+  <img src="/assets/img/projects/proj-1/DebugV2.jpeg" alt="Functional Dashboard" style="width:45%; border-radius:10px;">
+  <img src="/assets/img/projects/proj-1/DebugFin.png" alt="Dashboard Screen Editor" style="width:45%; border-radius:10px;">
+</div>
 
 **12/8/25**: Implemented library support, forking FT81xMania's GDSTx repository. This library allowed for me to utilize advanced EVE display list commands on my specific hardware
 
