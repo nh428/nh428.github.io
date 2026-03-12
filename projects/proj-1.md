@@ -6,6 +6,8 @@ title: 'ARG26 Dash'
 
 ---
 
+**Present:** Maintaining dashboard, making functional spare products, and working with drivers to implement new screen designs and presets.
+
 **2/28/26:** Mounted dashboard to racecar, reading internal states correctly! 
 
 <img src="/assets/img/projects/proj-1/dashoncar.JPG" alt="Mounted Dashboard" width="600">
