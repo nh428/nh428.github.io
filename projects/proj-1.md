@@ -6,7 +6,9 @@ title: 'ARG26 Dash'
 
 ---
 
-**Present:** Mounting dashboard to the car and waiting for the car's first drive, 1/31/26!
+**2/28/26:** Mounted dashboard to racecar, reading internal states correctly! 
+
+<img src="/assets/img/projects/proj-1/dashoncar.JPG" alt="Mounted Dashboard" width="600">
 
 **1/20/26:** Designed multiple custom screens for different debugging modes, communciating internal systems data. Tested physical integration with the chassis and configured driver input support.
 
