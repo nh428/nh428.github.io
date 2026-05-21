@@ -1,9 +1,11 @@
 ---
 layout: post
-title: 'API Endpoint Vulnerability Research'
+title: 'ARG25 BMS Test'
 ---
 
-Led a team of students to create a custom, modular API endpoint vulnerability detection tool was created and implemented to present current statistics on the degree of information leakage in various mobile Android applications through research. The program automatically intercepted valid API endpoint requests, attempted to modify them based on a set of preprogrammed heuristics, then parsed the API response to check for sensitive data in a breach of access control (BAC vulnerability). Ran this tool on a large subset of Android application, using data to build a report of common methods of sensitive information disclosure. Published paper to Cornell's research archive, arXiv.
+Created a custom test board for the battery management system of Cornell Racing's ARG25 race car. I designed, brought up, and tested with this board to ensure pack voltage was being correctly read with striking accuracy. I worked with +120V in a high voltage section of the board, as well as low voltage in voltage dividers. This was my pilot project in Altium Designer. Attached are pictures of the schematic diagrams.
 
-More information can be found in the paper itself, linked [here](https://arxiv.org/abs/2310.14137).
-
+<div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+  <img src="/assets/img/projects/proj-2/schematic3D.png" alt="3D Board Schematic" style="width:45%; border-radius:10px;">
+  <img src="/assets/img/projects/proj-3/thumbnail.png" alt="2D Board Schematic" style="width:45%; border-radius:10px;">
+</div>
