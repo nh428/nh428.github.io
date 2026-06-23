@@ -18,4 +18,6 @@ Although my course finished, I have continued work on improving this project. He
 - I also want to prioritize usability and user friendliness. I'm CADing the entire chassis to even weight distribution (which I expect to increase accuracy and eliminate the need for customn motor scaling factors), reduce profile, and increase energy effiecency. I am also looking at improving the person mounted module, reducing the profile by switching the Pi Zero to the smaller ESP32 C3 and switching the loud piezoelectric buzzer to a discrete vibration signal by adjusting the driving frequency or swapping to an ERM motor.
 Lots of changes I'm chipping away at!
 
-##
+## Technicals
+### SLAM + LiDAR
+For the SLAM and LiDAR module, I am using a SLAMTEC C1 LiDAR scanner paired with [Alex Karavaev's ros2_laser_scan_matcher](https://github.com/AlexKaravaev/ros2_laser_scan_matcher) laser odometry module, built for ROS2 us1ing CSM. I have had success with this module, however down the road I'm looking into optimizing it for my use case. The LiDAR module communicates with 
