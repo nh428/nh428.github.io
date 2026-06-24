@@ -3,7 +3,7 @@ layout: post
 title: 'Autonomous LiDAR Guide Bot'
 ---
 
-This project was started as a part of my coursework for ECE 5725, Embedded Operating Systems. Although my course has ended, I have since continued work and improvements as I've found it truly enjoyable. Even more in depth information about this project can be found in my end-of-year writeup, [here](https://nh428.github.io/ECE_5725_FinalProject/#objective).
+This project was started as a part of my coursework for ECE 5725, Embedded Operating Systems. Although my course has ended, I have since continued work and improvements as I've found it truly enjoyable. Even more in depth information about this project can be found in my end-of-year writeup, [here](https://nh428.github.io/ECE_5725_FinalProject/#intro).
 
 ## Objective:
 My mission was to deisgn a device to help the visually impaired navigate through spaces they interact with often where traditional guiding methods may not be feasible. For example, in a labs or office workspace where a person makes infrequent navigations, a discrete, user-activated solution may be more practical than the continuous presence of a guide dog.
