@@ -5,11 +5,18 @@ title: 'Autonomous LiDAR Guide Bot'
 
 This project was started as a part of my coursework for ECE 5725, Embedded Operating Systems. Although my course has ended, I have since continued work and improvements as I've found it truly enjoyable. Even more in depth information about this project can be found in my end-of-year writeup, [here](https://nh428.github.io/ECE_5725_FinalProject/#intro).
 
+<img src="/assets/img/projects/proj-2/robot.jpeg" alt="Robot" width="400">
+
+
 ## Objective:
 My mission was to deisgn a device to help the visually impaired navigate through spaces they interact with often where traditional guiding methods may not be feasible. For example, in a labs or office workspace where a person makes infrequent navigations, a discrete, user-activated solution may be more practical than the continuous presence of a guide dog.
 
+
+
 ## Solution: 
 My solution was a two part system consisting of an autonomous robot that traverses and maps a space in memory, then sends that data to a discrete wearable sensor capable of tracking a person's position and alerting them if they are approaching an obstacle. My robot uses a Raspberry Pi and LiDAR module to execute SLAM, autonmously navigating and mapping a space. Custom pathfinding algorithms direct its movement until a complete map is created. This data is then condensed and transmitted over bluetooth to a Pi Zero on the wearable tracker module. An IMU connected to the Pi Zero tracks the person's position in real time by counting steps, and calculates if the person is approaching an obstacle or deviating from a set path. If so, a piezoelectric buzzer goes off to notify the wearer, which stops when they go back on the path. There are many moving parts of this project, which I will go into on this page shortly :)
+
+<img src="/assets/img/projects/proj-2/overall_system_arch.png" alt="System Block Diagram" width="400">
 
 ## Improvements
 Although my course finished, I have continued work on improving this project. Here is what I'm currently working on improving:
