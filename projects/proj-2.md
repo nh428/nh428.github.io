@@ -28,3 +28,5 @@ Lots of changes I'm chipping away at!
 ## Technicals
 ### SLAM + LiDAR
 For the SLAM and LiDAR module, I am using a SLAMTEC C1 LiDAR scanner paired with [Alex Karavaev's ros2_laser_scan_matcher](https://github.com/AlexKaravaev/ros2_laser_scan_matcher) laser odometry module, built for ROS2 us1ing CSM. I have had success with this module, however down the road I'm looking into optimizing it for my use case. The LiDAR module communicates with 
+
+<img src="/assets/img/projects/proj-2/lidar_map.jpg" alt="Lidar Map" width="600">
