@@ -16,7 +16,7 @@ My mission was to deisgn a device to help the visually impaired navigate through
 ## Solution: 
 My solution was a two part system consisting of an autonomous robot that traverses and maps a space in memory, then sends that data to a discrete wearable sensor capable of tracking a person's position and alerting them if they are approaching an obstacle. My robot uses a Raspberry Pi and LiDAR module to execute SLAM, autonmously navigating and mapping a space. Custom pathfinding algorithms direct its movement until a complete map is created. This data is then condensed and transmitted over bluetooth to a Pi Zero on the wearable tracker module. An IMU connected to the Pi Zero tracks the person's position in real time by counting steps, and calculates if the person is approaching an obstacle or deviating from a set path. If so, a piezoelectric buzzer goes off to notify the wearer, which stops when they go back on the path. There are many moving parts of this project, which I will go into on this page shortly :)
 
-<img src="/assets/img/projects/proj-2/overall_system_arch.png" alt="System Block Diagram" width="400">
+<img src="/assets/img/projects/proj-2/overall_system_arch.png" alt="System Block Diagram" width="600">
 
 ## Improvements
 Although my course finished, I have continued work on improving this project. Here is what I'm currently working on improving:
