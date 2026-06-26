@@ -9,8 +9,8 @@ title: 'ARG26 Dash'
 **6/20/26:** Full racecar performed at FSAE 2026, placing 9th. 
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
-  <img src="/assets/img/projects/proj-1/DebugV2.jpeg" alt="Functional Dashboard" style="width:45%; border-radius:10px;">
-  <img src="/assets/img/projects/proj-1/DebugFin.png" alt="Dashboard Screen Editor" style="width:45%; border-radius:10px;">
+  <img src="/assets/img/projects/proj-1/SZ679642.JPG" alt="Racecar Racing" style="width:45%; border-radius:10px;">
+  <img src="/assets/img/projects/proj-1/image.png" alt="Dashboard" style="width:45%; border-radius:10px;">
 </div>
 
 **2/28/26:** Mounted dashboard to racecar, reading internal states correctly! 
