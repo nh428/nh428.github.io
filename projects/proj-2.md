@@ -34,10 +34,15 @@ For pathfinding code, I currently have three different algorithms that can all r
 
 ![Visualization Software of Pathfinding Algorithm](/assets/img/projects/proj-2/cropped.gif)
 
-Finally, as a proof of concept, I wrote a simple A* pathfinding script that upon a termination command calculated the most optimal path from the robot's starting position to its ending pose. Then, that path would be sent over to the wearable tracking module, and given a person deviating from this path, the piezoelectric buzzer would alert them. 
+Finally, as a proof of concept, I wrote a simple A* pathfinding script that upon a termination command calculated the most optimal path from the robot's starting position to its ending pose. I tuned the A* algorithm to add padding around the obstacles and limit the number of required direction changes for user accessibility. Then, that path would be sent over to the wearable tracking module, and given a person deviating from this path, the piezoelectric buzzer would alert them. 
+
+<img src="/assets/img/projects/proj-2/path_overlay.png" alt="Step Map vs Robot Path" width="400">
+
 
 #### Robot
 The robot was a simple flat frame, 2WD with a caster wheel in the front. All the hardware was mounted ontop of the robot, and I CADed a few simple enclosures and mounting points on SolidWorks. Hardware included the LiDAR module, the Raspberry Pi, a breadboard, a battery pack, and 2 cheap motors. As I mentioned in my improvement section, I have since revamped the hardware to use 2 smaller N20 motors with built in encoders, allowing for more precision. I am currently in the process of CADing a new, lighter, and smaller frame for the robot, allowing it to fit through smaller gaps. I am also mounting an ESP32 to act as a dedicated motor controller and encoder processor. 
 
 #### Wearable Step Tracker
-The wearable step tracker module is an integral part of the objective of this project, and it is also currently being redesigned. Previously, the Pi Zero connected to an Arduino IMU, which gathered acceleration data and ran a peak detection software to discern steps. Given which direction the acceleration was recorded in, I was able to determine which direction the step was taken in, and thus keep a rough estimate of the person's general position. 
+The wearable step tracker module is an integral part of the objective of this project, and it is also currently being redesigned. Previously, the Pi Zero connected to an Arduino IMU, which gathered acceleration data and ran a peak detection software to discern steps. Given which direction the acceleration was recorded in, I was able to determine which direction the step was taken in, and thus keep a rough estimate of the person's general position. A piezoelectric buzzer was connected to the Pi Zero's GPIO pins, and custom firmware was flashed that compared the person's estimated position against a downloaded copy of the robot's path. Overall, the wearable module worked as intended but it's design was limited by time and a tight budget (as per my course's project requirements of a 100$ limit). I'm confident that I can design a better implementation with rapid prototyping and better hardware. 
+
+
