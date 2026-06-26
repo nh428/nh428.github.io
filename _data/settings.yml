@@ -11,8 +11,8 @@ menu:
 
 projects:
 - {name: 'SLAM LiDAR Mazebot',   url: 'proj-2', image: 'assets/img/projects/proj-2/thumbnail.png'}
-- {name: 'Custom Dashboard PCB', url: 'proj-1', image: 'assets/img/projects/proj-1/thumbnail.png'}
 - {name: 'RSC-V Multi-Core Processor', url: 'proj-3'}
+- {name: 'Custom Dashboard PCB', url: 'proj-1', image: 'assets/img/projects/proj-1/thumbnail.png'}
 - {name: 'Battery Management System Test PCB',  url: 'proj-4'}
 - {name: 'API Endpoint Vulnerability Research',  url: 'proj-5'}
 
