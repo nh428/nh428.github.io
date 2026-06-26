@@ -23,13 +23,13 @@ Although my course finished, I have continued work on improving this project. He
 Lots of changes I'm chipping away at!
 
 #### Technicals
-### SLAM + LiDAR
+##### SLAM + LiDAR
 For the SLAM and LiDAR module, I am using a SLAMTEC C1 LiDAR scanner paired with [Alex Karavaev's ros2_laser_scan_matcher](https://github.com/AlexKaravaev/ros2_laser_scan_matcher) laser odometry module, built for ROS2 using CSM (canonical scan matcher). My ROS2 node tree includes the LiDAR module, publishing to the odometry module, publishing to the SLAM module, which publishes to my visualization software. I run the Pi headless using a DDS server to maximize available RAM for SLAM calculations. Although I have had success with this implementation so far, I'm looking into further optimizing this stack for my use case. I have begun rebuilding my ROS to be more bare metal, and I am considering using FPGAs to process sensor data with lower latency. My main hurdle with this is computing the complex CSM calculations using Verilog, a task I've only been able to chip away at.
 
 See an example mapping of a hallway with obstacles by the SLAM algorithm below.
 <img src="/assets/img/projects/proj-2/lidar_map.jpg" alt="Lidar Map" width="600">
 
-### Pathfinding
+##### Pathfinding
 For pathfinding code, I currently have three different algorithms that can all run as individual ROS nodes, which send control data to the motor control code module. Each pathfinding algorithm is aimed to excell within a specific environment: one for general open rooms, one for hallways, and one for mazes. Each pathfinding algorithm subscribes to the LiDAR scan output data, parses the array of distances and angles of objects from the robot, and runs convolutions to compress the data and oprate on it. Each algorithm evaluates the data with different heuristics I added given the nature of their environment. For example, the open room algorithm prioritizes exploration while the hallway algorithm prioritizes forward movement. Other considered factors are distance from object, angle relative to where the robot is pointing, width of target gaps, clustering of objects at similar distances, and max distance considered reliable. Each algorithm chooses a target position represented by a vector, then converts the angle to left and right motor PWM signals. Each algorithm can compute target positions in real time as the robot is moving, or with a step implementation which seperates robot movement from calculation. The step method proved helpful in debugging algorithm behavior. Connecting headlessly to the Pi via a DDS server, I was able to visualize this data on RViz2. Here you can see some of the heuristics, such as FOV cone, top 5 selected target positions, and target vector. 
 
 ![Visualization Software of Pathfinding Algorithm](/assets/img/projects/proj-2/cropped.gif)
@@ -39,10 +39,10 @@ Finally, as a proof of concept, I wrote a simple A* pathfinding script that upon
 <img src="/assets/img/projects/proj-2/path_overlay.png" alt="Step Map vs Robot Path" width="400">
 
 
-### Robot
+##### Robot
 The robot was a simple flat frame, 2WD with a caster wheel in the front. All the hardware was mounted ontop of the robot, and I CADed a few simple enclosures and mounting points on SolidWorks. Hardware included the LiDAR module, the Raspberry Pi, a breadboard, a battery pack, and 2 cheap motors. As I mentioned in my improvement section, I have since revamped the hardware to use 2 smaller N20 motors with built in encoders, allowing for more precision. I am currently in the process of CADing a new, lighter, and smaller frame for the robot, allowing it to fit through smaller gaps. I am also mounting an ESP32 to act as a dedicated motor controller and encoder processor. 
 
-### Wearable Step Tracker
+##### Wearable Step Tracker
 The wearable step tracker module is an integral part of the objective of this project, and it is also currently being redesigned. Previously, the Pi Zero connected to an Arduino IMU, which gathered acceleration data and ran a peak detection software to discern steps. Given which direction the acceleration was recorded in, I was able to determine which direction the step was taken in, and thus keep a rough estimate of the person's general position. A piezoelectric buzzer was connected to the Pi Zero's GPIO pins, and custom firmware was flashed that compared the person's estimated position against a downloaded copy of the robot's path. Overall, the wearable module worked as intended but it's design was limited by time and a tight budget (as per my course's project requirements of a 100$ limit). I'm confident that I can design a better implementation with rapid prototyping and better hardware. 
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
