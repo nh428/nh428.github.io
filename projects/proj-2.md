@@ -45,4 +45,8 @@ The robot was a simple flat frame, 2WD with a caster wheel in the front. All the
 #### Wearable Step Tracker
 The wearable step tracker module is an integral part of the objective of this project, and it is also currently being redesigned. Previously, the Pi Zero connected to an Arduino IMU, which gathered acceleration data and ran a peak detection software to discern steps. Given which direction the acceleration was recorded in, I was able to determine which direction the step was taken in, and thus keep a rough estimate of the person's general position. A piezoelectric buzzer was connected to the Pi Zero's GPIO pins, and custom firmware was flashed that compared the person's estimated position against a downloaded copy of the robot's path. Overall, the wearable module worked as intended but it's design was limited by time and a tight budget (as per my course's project requirements of a 100$ limit). I'm confident that I can design a better implementation with rapid prototyping and better hardware. 
 
+<div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
+  <img src="/assets/img/projects/proj-2/step_signal.png" alt="Step Signal Graph" style="width:45%; border-radius:10px;">
+  <img src="/assets/img/projects/proj-2/xyz_acc.png" alt="XYZ Acceleration Graph" style="width:45%; border-radius:10px;">
+</div>
 
