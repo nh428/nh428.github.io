@@ -28,3 +28,32 @@
     {% endfor %}
   </div>
 </section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".project-filter-btn");
+    const projects = document.querySelectorAll(".project-unit");
+
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        const selectedFilter = button.dataset.filter;
+
+        buttons.forEach(function (btn) {
+          btn.classList.remove("active");
+        });
+
+        button.classList.add("active");
+
+        projects.forEach(function (project) {
+          const projectTags = project.dataset.tags.split(" ");
+
+          if (selectedFilter === "all" || projectTags.includes(selectedFilter)) {
+            project.classList.remove("is-dimmed");
+          } else {
+            project.classList.add("is-dimmed");
+          }
+        });
+      });
+    });
+  });
+</script>
