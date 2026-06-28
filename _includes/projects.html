@@ -2,10 +2,24 @@
   <div class="projects-intro">
     <p style="text-align: left;">Click on one of my projects for more information!</p>
   </div>
+
+  <div class="project-filter">
+    <button class="project-filter-btn active" data-filter="all">All</button>
+    <button class="project-filter-btn" data-filter="embedded-design">Embedded Design</button>
+    <button class="project-filter-btn" data-filter="robotics">Robotics</button>
+    <button class="project-filter-btn" data-filter="rtl-design">RTL Design</button>
+    <button class="project-filter-btn" data-filter="pcb-development">PCB Development</button>
+  </div>
+
   <div class="project-container">
     {% for project in site.data.settings.projects %}
       <a href="{{ site.github.url }}/projects/{{ project.url }}">
-        <div class="project-unit" data-folder="{{ site.github.url }}/projects/{{ project.url }}" style="background-image: url('{% if project.image %}{{ project.image }}{% else %}{{ site.github.url }}/assets/img/projects/{{ project.url }}/thumbnail.png{% endif %}')">
+        <div 
+          class="project-unit" 
+          data-folder="{{ site.github.url }}/projects/{{ project.url }}"
+          data-tags="{{ project.tags | join: ' ' }}"
+          style="background-image: url('{% if project.image %}{{ project.image }}{% else %}{{ site.github.url }}/assets/img/projects/{{ project.url }}/thumbnail.png{% endif %}')">
+
           <div class="project-overlay">
             <strong>{{ project.name }} <i class="fa fa-arrow-right" aria-hidden="true"></i></strong>
           </div>
