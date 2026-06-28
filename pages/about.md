@@ -21,7 +21,7 @@ permalink: /about
 
   <h4 style="font-weight: 700; margin-bottom: 0.5em;">About Me</h4>
 
-  <img src="/assets/img/better_headshot.jpg" 
+  <img src="/assets/better_headshot.jpg" 
        alt="My Headshot" 
        style="position: absolute; right: -250px; top: 40px; width: 250px; height: 250px; border-radius: 50%; object-fit: cover;">
 
