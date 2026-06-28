@@ -11,17 +11,24 @@
     gap: 35px;
   }
 
-.home-intro-img
-  {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    object-fit: cover;
-    flex-shrink: 0;
-    transform: translateX(-50px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
-  }
+.home-intro-img-crop {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+}
 
+.home-intro-img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+  margin: 20px auto;
+}
+  
 .home-intro-text
   {
     max-width: 300px;
@@ -57,7 +64,7 @@
   }
 </style>
 
-<div class="home-intro">
+<div class="home-intro-img-crop">
   <img 
     src="{{ site.github.url }}/assets/better_headshot.jpg" 
     alt="My Headshot" 
