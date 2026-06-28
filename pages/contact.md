@@ -6,7 +6,7 @@ permalink: /contact
 
 # Resume
 
-Please refer to my resume below, or download it [here](/assets/Nate_Haris_Resume_1_26.pdf). 
+Please refer to my resume below, or download it [here](/assets/Nate_Haris_Resume_6_26.pdf). 
 
-<img src="/assets/Nate_Haris_Resume_1_26 (1).png" alt="Resume" width="150%">
+<img src="/assets/Nate_Haris_Resume_6_26-1.png" alt="Resume" width="150%">
 
