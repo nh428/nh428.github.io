@@ -1,26 +1,73 @@
 <section>
   
 <style>
-@media (max-width: 1000px) {
-  .about-img {
-    position: static !important;
-    display: block;
-    margin: 20px auto;
+.home-intro
+  {
+    width: clamp(300px, 80vw, 950px);
+    margin: 35px auto 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
   }
-  .about-text {
-    max-width: 100% !important;
+
+.home-intro-img
+  {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
   }
-}
+
+.home-intro-text
+  {
+    max-width: 560px;
+  }
+
+.home-intro-text p
+  {
+    text-align: left;
+    line-height: 1.6;
+    font-size: 17px;
+    margin: 0;
+  }
+
+@media (max-width: 768px)
+  {
+    .home-intro
+      {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+      }
+
+    .home-intro-text p
+      {
+        text-align: center;
+      }
+
+    .home-intro-img
+      {
+        width: 180px;
+        height: 180px;
+      }
+  }
 </style>
 
-<div style="position: relative; min-height: 220px;">
-  <img src="/assets/better_headshot.jpg" 
-       alt="My Headshot" 
-       style="position: absolute; left: -250px; top: 40px; width: 250px; height: 250px; border-radius: 50%; object-fit: cover;">
-</div>
-  <div class="projects-intro">
-    <p style="text-align: left;">Welcome to my personal portfolio! My name is Nate and I am a electrical+computer engineer interested in robotics, embedded systems, RTL, and PCB development. Click any of my projects to learn more.</p>
+<div class="home-intro">
+  <img 
+    src="{{ site.github.url }}/assets/better_headshot.jpg" 
+    alt="My Headshot" 
+    class="home-intro-img">
+
+  <div class="home-intro-text">
+    <p>
+      Welcome to my personal portfolio! My name is Nate and I am an electrical and computer engineer interested in robotics, embedded systems, RTL, and PCB development. Click any of my projects to learn more.
+    </p>
   </div>
+</div>
 
   <div class="project-filter">
     <button class="project-filter-btn active" data-filter="all">All</button>
