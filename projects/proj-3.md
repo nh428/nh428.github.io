@@ -19,3 +19,5 @@ The entirety of the datapath and control logic was coded using Synthesizeable Ve
 
 <img src="/assets/img/projects/proj-3/ProcessorForwarding.png" alt="Microprocessor Datapath" width="1000">
 
+[(Diagram Credit)](https://www.csl.cornell.edu/courses/ece4750/handouts/ece4750-lab4-sys.pdf)
+
