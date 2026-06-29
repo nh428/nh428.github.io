@@ -13,7 +13,7 @@ projects:
 - {name: 'SLAM LiDAR Mazebot',   url: 'proj-2', image: 'assets/img/projects/proj-2/thumbnail.png', tags: ['robotics', 'embedded-design', 'rtl-design']}
 - {name: 'RISC-V Multi-Core Processor', url: 'proj-3', tags: ['rtl-design']}
 - {name: 'Custom Dashboard PCB', url: 'proj-1', image: 'assets/img/projects/proj-1/thumbnail.png', tags: ['pcb-development', 'embedded-design']}
-- {name: 'FPGA Camera Edge Detection (Bird Watcher)', url: 'proj-6', image: 'assets/img/projects/proj-6/thumbnail.png', tags: ['rtl-design', 'embedded-design', 'robotics']}
+- {name: 'FPGA Driven Edge Detection', url: 'proj-6', image: 'assets/img/projects/proj-6/thumbnail.png', tags: ['rtl-design', 'embedded-design', 'robotics']}
 - {name: 'Battery Management System Test PCB',  url: 'proj-4', tags: ['pcb-development']}
 - {name: 'API Endpoint Vulnerability Research',  url: 'proj-5'}
 
