@@ -9,5 +9,5 @@ This project was inspired by my current internship mentor and my grandfather, an
 
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
   <img src="/assets/img/projects/proj-2/schematic3D.png" alt="3D Board Schematic" style="width:45%; border-radius:10px;">
-  <img src="/assets/img/projects/proj-3/thumbnail.png" alt="2D Board Schematic" style="width:45%; border-radius:10px;">
+  <img src="/assets/img/projects/proj-4/thumbnail.png" alt="2D Board Schematic" style="width:45%; border-radius:10px;">
 </div>
