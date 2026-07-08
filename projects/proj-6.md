@@ -9,7 +9,7 @@ This project was inspired by my current internship mentor and my grandfather, an
 
 **7/7/26: ** Was able to power the screen and write to it using SPI and an RGB interface. Created a FSM in IceStudio to initalize screen and flash pixels to the buffer.
 <div style="display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
-  <img src="/assets/img/projects/proj-6/IMG_3623.jpeg" alt="Working Screen" style="width:45%; border-radius:10px;">
+  <img src="/assets/img/projects/proj-6/IMG_3623.JPG" alt="Working Screen" style="width:45%; border-radius:10px;">
   <img src="/assets/img/projects/proj-6/FSM.png" alt="FSM for Screen Control" style="width:45%; border-radius:10px;">
 </div>
 
